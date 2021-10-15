@@ -1,0 +1,73 @@
+.scan_1 ,
+.scan_2{
+    width: 342px;
+    height: 226px;
+    background: #fff;
+    border-radius: 10px;
+}
+.scan_1{
+    margin-right: 16px;
+}
+.scan_2{
+    margin-left: 16px;
+}
+.show_number{
+    /* position: absolute; */
+    margin-top: 24px;
+    left: 282px;
+}
+.input_number{
+    margin-top: 12px;  
+    width: 716px;
+    height: 56px;
+}
+.input_number input{
+    width: 100%;
+    height: 56px;
+    font-size: 30px;
+    line-height: 28px;
+    background: rgba(255, 255, 255, 0.15);
+    border:none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0.25rem;
+    padding-left: 12px;
+    
+}
+.btn_back{
+    bottom: 40px;
+    left:70px;
+}
+button{
+    width: 165px;
+    height: 60px;
+    outline: none;
+    border-color: #EAAB00;
+
+}
+.btn_confirm{
+    font-size: 24px;
+    line-height: 60px;
+    color: #000000;
+}
+.btn_back{
+    color: #C88A12;
+    font-size: 24px;
+    line-height: 60px;
+    background: #000000;
+}
+.btn_back img{
+    margin-right: 11.78px;
+}
+.btn_confirm img{
+    margin-left:11.78px;
+}
+.btn_confirm{
+    bottom: 40px;
+    right: 70px;
+}
+.box_accuracy{
+    width: 342px;
+    height: 240px;
+    margin:auto;  
+}

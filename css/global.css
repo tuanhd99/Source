@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Helvetica;
+    src: url('../fonts/Helvetica/HelveticaNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently */
+    position: relative;;
+}
+*{
+    padding :0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    
+}
+html,body {
+    width: 1280px;
+	height: 1024px;
+	overflow: hidden;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 24px;
+    line-height: 1.333;
+    background: url("../Image/img_MTK/Backgroud.png") no-repeat; 
+}
+.header{
+    margin-top: 104px;
+}
+.header .center{
+    font-size: 30px;
+    color: #EAAB00;
+    padding-right: 5px;
+}
+.header .time_out{
+    font-size: 24px;
+    opacity: 0.5;
+}
+.exit_right{
+    float:right;
+    margin: 39px 70px 0 0;
+}
+.header ,
+.container_main,
+.box_scan,
+.advise,
+.main .container,
+.iteam_1 ,.iteam_2,.iteam_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.main,
+.fail_1,
+.fail_2,
+.failure,
+.teller,
+.text_center,
+.face_capture{
+    text-align: center;
+}
+.next_right,
+.previous,
+.node_active,
+.node-inactive,
+.fail_2,
+.select_button,
+.chose .fail_connect,
+.btn_back,
+.btn_confirm,
+.show_number
+{
+    position: absolute;
+}
+.fail_2,
+.fail_1,
+.image_accuracy,
+.container_main
+{
+    position: relative;
+}
+.iteam_1,
+.iteam_2,
+.iteam_3,
+.btn_confirm,
+.select_button #retry
+{
+    background: #EAAB00;
+}
+
+
+
+
+
+
+
+
